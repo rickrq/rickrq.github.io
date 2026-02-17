@@ -28,7 +28,7 @@
 <meta property="og:description" content="搭建博客的过程详细步骤：以“Hexo + GitHub Pages”为例 这个方案写文章就像写代码一样，用最纯粹的Markdown格式，非常有极客范儿。整个过程可以分为四步：  准备工作：搭个“作坊”你需要在电脑上安装三个基础软件：Node.js (Hexo的运行环境)、Git (版本控制和上传工具)，以及一个趁手的代码编辑器（如VS Code）。安装好这些，建站的基础就有了 。  本地生成：种下">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2026-02-17T00:37:49.000Z">
-<meta property="article:modified_time" content="2026-02-17T02:19:48.606Z">
+<meta property="article:modified_time" content="2026-02-17T06:29:24.140Z">
 <meta property="article:author" content="ricky">
 <meta property="article:tag" content="心得，开始">
 <meta name="twitter:card" content="summary">
@@ -80,6 +80,9 @@
       <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
@@ -100,6 +103,10 @@
 
 
 
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li>
+  </ul>
+</nav>
 
 
 
@@ -122,7 +129,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B"><span class="nav-number">1.</span> <span class="nav-text">搭建博客的过程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%86%99%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B"><span class="nav-number">2.</span> <span class="nav-text">写博客的流程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E6%88%91About-Me"><span class="nav-number">3.</span> <span class="nav-text">关于我About Me</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B"><span class="nav-number">1.</span> <span class="nav-text">搭建博客的过程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%86%99%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B"><span class="nav-number">2.</span> <span class="nav-text">写博客的流程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E4%B8%AA%E6%80%A7%E5%8C%96"><span class="nav-number">3.</span> <span class="nav-text">博客个性化</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1%E3%80%81%E4%BF%AE%E6%94%B9%E5%8D%9A%E5%AE%A2%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF"><span class="nav-number">3.1.</span> <span class="nav-text">1、修改博客基本信息</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2%E3%80%81%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98"><span class="nav-number">3.2.</span> <span class="nav-text">2、更换主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3%E3%80%81next%E4%B8%BB%E9%A2%98%E9%A1%B5%E9%9D%A2%E8%AE%BE%E7%BD%AE"><span class="nav-number">3.3.</span> <span class="nav-text">3、next主题页面设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4%E3%80%81about%E9%A1%B5%E9%9D%A2"><span class="nav-number">3.4.</span> <span class="nav-text">4、about页面</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E5%BC%A0%E6%8F%92%E5%9B%BE"><span class="nav-number">4.</span> <span class="nav-text">一张插图</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -145,6 +152,14 @@
       </div>
   </nav>
 </div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/rickrq" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;rickrq" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:ricky_acc23@163.com" title="E-Mail → mailto:ricky_acc23@163.com" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
 
         </div>
       </div>
@@ -197,7 +212,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2026-02-17 08:37:49 / Modified: 10:19:48" itemprop="dateCreated datePublished" datetime="2026-02-17T08:37:49+08:00">2026-02-17</time>
+      <time title="Created: 2026-02-17 08:37:49 / Modified: 14:29:24" itemprop="dateCreated datePublished" datetime="2026-02-17T08:37:49+08:00">2026-02-17</time>
     </span>
 
   
@@ -264,8 +279,126 @@
 <td>发布上线</td>
 </tr>
 </tbody></table>
-<h1 id="关于我About-Me"><a href="#关于我About-Me" class="headerlink" title="关于我About Me"></a>关于我About Me</h1><p>做过两年电磁兼容测试，现在打算做自动化测试。</p>
+<h1 id="博客个性化"><a href="#博客个性化" class="headerlink" title="博客个性化"></a>博客个性化</h1><h2 id="1、修改博客基本信息"><a href="#1、修改博客基本信息" class="headerlink" title="1、修改博客基本信息"></a>1、修改博客基本信息</h2><p>打开根目录的 <code>_config.yml</code> 文件，找到并修改</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: 你的博客标题</span><br><span class="line">subtitle: 你的副标题</span><br><span class="line">description: 博客描述</span><br><span class="line">author: 你的名字</span><br><span class="line">language: zh-CN  # 改成中文</span><br><span class="line">timezone: Asia/Shanghai</span><br></pre></td></tr></table></figure>
 
+<h2 id="2、更换主题"><a href="#2、更换主题" class="headerlink" title="2、更换主题"></a>2、更换主题</h2><p>原始主题Hexo的landscape主题</p>
+<ul>
+<li>安装主题：例如next主题</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>修改 <code>_config.yml</code>，找到 <code>theme</code> 字段，改成</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>重新生成并部署</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy</span><br></pre></td></tr></table></figure>
+
+<h2 id="3、next主题页面设置"><a href="#3、next主题页面设置" class="headerlink" title="3、next主题页面设置"></a>3、next主题页面设置</h2><p>以scheme关键词为例：</p>
+<ol>
+<li><p>找到并打开我们之前说的<strong>主题配置文件</strong>：<code>C:\Users\ricky\myblog\_config.next.yml</code>（如果还没有这个文件，就先在博客根目录下手动建一个，然后从 <code>themes/next/_config.yml</code> 复制内容进去）。</p>
+</li>
+<li><p>在文件中搜索 <code>scheme</code>关键词（或者其他）。</p>
+</li>
+<li><p>你会看到类似这样的四行，把你想用的那个样式前面的 <code>#</code> 去掉（取消注释），其他的保留 <code>#</code>（注释掉）。例如，想用 Gemini：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">scheme: Gemini</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>保存文件，然后运行 <code>hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy</code> 部署，刷新博客就能看到新样式了。</p>
+</li>
+<li><p>进一步设置：</p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th align="left">美化类别</th>
+<th align="left">配置项关键词 (在 <code>_config.next.yml</code> 中搜索)</th>
+<th align="left">简单说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>黑暗模式</strong></td>
+<td align="left"><code>darkmode</code></td>
+<td align="left">设为 <code>true</code> 可开启，访客能一键切换明暗主题 。</td>
+</tr>
+<tr>
+<td align="left"><strong>菜单栏</strong></td>
+<td align="left"><code>menu</code></td>
+<td align="left">可以自由添加或删除首页、归档、分类、标签、关于等页面链接 。</td>
+</tr>
+<tr>
+<td align="left"><strong>侧边栏</strong></td>
+<td align="left"><code>sidebar</code></td>
+<td align="left">可以设置侧边栏在左侧还是右侧 (<code>position</code>)，以及它的显示方式 (<code>display</code>，如 always, hide) 。</td>
+</tr>
+<tr>
+<td align="left"><strong>社交链接</strong></td>
+<td align="left"><code>social</code></td>
+<td align="left">在这里添加你的 GitHub、Twitter 等账号链接，会在侧边栏显示图标 。</td>
+</tr>
+<tr>
+<td align="left"><strong>代码块</strong></td>
+<td align="left"><code>codeblock</code></td>
+<td align="left">可以开启<strong>复制按钮</strong> (<code>copy_button</code>)，并选择喜欢的<strong>高亮主题</strong> (<code>highlight_theme</code>)，比如 <code>night</code>、<code>night eighties</code> 等 。</td>
+</tr>
+<tr>
+<td align="left"><strong>文章底部信息</strong></td>
+<td align="left"><code>post_meta</code>、<code>reward</code></td>
+<td align="left">可以控制是否显示文章发布日期、分类、标签，甚至开启<strong>打赏</strong>功能。</td>
+</tr>
+<tr>
+<td align="left"><strong>页脚</strong></td>
+<td align="left"><code>footer</code></td>
+<td align="left">可以自定义页脚文字，比如添加版权信息或去掉官方主题链接 。</td>
+</tr>
+<tr>
+<td align="left"><strong>头像和图标</strong></td>
+<td align="left"><code>avatar</code>、<code>favicon</code></td>
+<td align="left">设置你的个人头像和浏览器标签页上的小图标。</td>
+</tr>
+<tr>
+<td align="left"><strong>阅读进度条</strong></td>
+<td align="left"><code>reading_progress</code></td>
+<td align="left">开启后，页面顶部会有一条细线，随着滚动显示阅读进度 。</td>
+</tr>
+<tr>
+<td align="left"><strong>第三方服务</strong></td>
+<td align="left"><code>google_analytics</code>、<code>algolia_search</code> 等</td>
+<td align="left">可以集成统计代码（如百度统计、Google Analytics）或添加搜索功能 。</td>
+</tr>
+</tbody></table>
+<h2 id="4、about页面"><a href="#4、about页面" class="headerlink" title="4、about页面"></a>4、about页面</h2><p>1、生成“关于”页面文件（<strong>需要提前创建文件再开启菜单</strong>）</p>
+<p>在你的博客根目录（<code>C:\Users\ricky\myblog</code>）下，打开命令行，运行以下命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page about</span><br></pre></td></tr></table></figure>
+
+<p>2、编写“关于”页面的内容</p>
+<p>用 VS Code 或记事本打开并编写<code>C:\Users\ricky\myblog\source\about\index.md</code></p>
+<p>3、在导航菜单中显示“关于”链接</p>
+<p>光有页面还不够，你需要让博客的导航栏里出现“关于”这个入口。</p>
+<ol>
+<li>打开博客根目录下的 <strong><code>_config.next.yml</code></strong> 文件。</li>
+<li>在文件中搜索 <code>menu</code> 关键词。</li>
+<li>你会看到类似这样的几行配置，找到 <code>about</code> 那一行，把前面的 <code>#</code> 去掉（取消注释）</li>
+<li>保存文件。</li>
+</ol>
+<p>4、重新生成并部署</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+<h1 id="一张插图"><a href="#一张插图" class="headerlink" title="一张插图"></a>一张插图</h1>
     </div>
 
     
