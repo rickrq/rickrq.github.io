@@ -132,6 +132,8 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ricky"
+      src="/images/labixiaoxin.jpg">
   <p class="site-author-name" itemprop="name">ricky</p>
   <div class="site-description" itemprop="description">I'm rickrq (often called ricky), a passionate self-taught developer, with a keen interest in software testing.</div>
 </div>
@@ -181,7 +183,7 @@
     <link itemprop="mainEntityOfPage" href="http://example.com/2026/02/17/My-first-blog/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/labixiaoxin.jpg">
       <meta itemprop="name" content="ricky">
     </span>
 
@@ -208,7 +210,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2026-02-17 08:37:49 / Modified: 17:20:35" itemprop="dateCreated datePublished" datetime="2026-02-17T08:37:49+08:00">2026-02-17</time>
+      <time title="Created: 2026-02-17 08:37:49 / Modified: 23:13:17" itemprop="dateCreated datePublished" datetime="2026-02-17T08:37:49+08:00">2026-02-17</time>
     </span>
 
   
@@ -221,27 +223,36 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="搭建博客的过程"><a href="#搭建博客的过程" class="headerlink" title="搭建博客的过程"></a>搭建博客的过程</h1><p>详细步骤：以“Hexo + GitHub Pages”为例</p>
+          <h1 id="搭建博客的步骤"><a href="#搭建博客的步骤" class="headerlink" title="搭建博客的步骤"></a>搭建博客的步骤</h1><p>以“Hexo + GitHub Pages”为例</p>
 <p>这个方案写文章就像写代码一样，用最纯粹的Markdown格式，非常有极客范儿。整个过程可以分为四步：</p>
-<ol>
-<li><p><strong>准备工作：搭个“作坊”</strong><br>你需要在电脑上安装三个基础软件：<strong>Node.js</strong> (Hexo的运行环境)、<strong>Git</strong> (版本控制和上传工具)，以及一个趁手的代码编辑器（如VS Code）。安装好这些，建站的基础就有了 。</p>
-</li>
-<li><p><strong>本地生成：种下博客的“种子”</strong><br>打开命令行，输入<code>npm install -g hexo-cli</code>装上Hexo，然后用<code>hexo init myblog</code>创建一个叫“myblog”的博客文件夹，再用<code>hexo server</code>就能在浏览器里通过<code>http://localhost:4000</code>看到你新鲜出炉的博客了 ！</p>
-</li>
-<li><p><strong>部署上线：把“家”搬到网上</strong><br>想让全世界看到，就需要一个“家”。去 <strong>GitHub</strong> 注册个账号，创建一个名为 <code>你的用户名.github.io</code> 的仓库。接着，在你本地的博客文件夹里，简单配置一下<code>_config.yml</code>文件，填上仓库地址。最后运行<code>hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy</code>，你的博客就被自动打包上传到这个“家”里了。稍等片刻，访问<code>你的用户名.github.io</code>，就能看到你的博客成功上线！</p>
+<h2 id="一、安装基础软件"><a href="#一、安装基础软件" class="headerlink" title="一、安装基础软件"></a>一、安装基础软件</h2><p>1、<strong>Node.js</strong> (Hexo的运行环境)。<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1aeCcBcEqP/?spm_id_from=333.1387.homepage.video_card.click&vd_source=37c3d3de42091f829cc54fc3d452e6b0">Node.js安装教程_哔哩哔哩_bilibili</a></p>
+<p>2、<strong>Git</strong> (版本控制和上传工具)。<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1vM4m1Q7hC/?spm_id_from=333.1391.0.0&vd_source=37c3d3de42091f829cc54fc3d452e6b0">在Windows上安装Git_哔哩哔哩_bilibili</a></p>
+<p>3、以及一个趁手的代码编辑器（如VS Code）。</p>
+<h2 id="二、本地生成"><a href="#二、本地生成" class="headerlink" title="二、本地生成"></a>二、本地生成</h2><p>1、打开命令行，输入<code>npm install -g hexo-cli</code>装上Hexo。</p>
+<p>2、命令行输入<code>hexo init myblog</code>创建一个叫“myblog”的博客文件夹。</p>
+<p>3、输入<code>hexo server</code>就能在浏览器里通过<code>http://localhost:4000</code>看到你新鲜出炉的博客了 ！</p>
+<h2 id="三、部署上线"><a href="#三、部署上线" class="headerlink" title="三、部署上线"></a>三、<strong>部署上线</strong></h2><p>1、去 GitHub 注册个账号，创建一个名为 <code>你的用户名.github.io</code> 的仓库。记得要写readme。</p>
+<p>2、在你本地的博客文件夹里（C:\Users\ricky\myblog），简单配置一下<code>_config.yml</code>文件，填上仓库地址。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/one-command-deployment</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/你的用户名/你的用户名.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>你的用户名</code> 要替换成你 GitHub 的<strong>真实用户名</strong></li>
+<li>比如你 GitHub 用户名是 <code>ricky123</code>，那么 <code>repo</code> 就是：<code>https://github.com/ricky123/ricky123.github.io.git</code></li>
+<li><strong>冒号后面要有一个空格</strong>（YAML 格式要求，很重要！）</li>
+<li><code>branch</code> 一般写 <code>master</code>，如果你的 GitHub 默认分支是 <code>main</code>，就改成 <code>main</code></li>
+</ul>
+<p>3、ctrl+c关闭本地服务：<code>hexo server</code> 启动后，它会<strong>一直占用着命令行窗口</strong>，你无法输入新命令。更重要的是，它会把生成的网站文件<strong>锁住</strong>，这时候如果运行部署命令，会导致文件冲突或部署失败。</p>
+<p>4、安装Git部署插件：<code>npm install hexo-deployer-git --save</code></p>
+<p>5、最后运行<code>hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy</code>，你的博客就被自动打包上传到这个“家”里了。稍等片刻，访问<code>你的用户名.github.io</code>，就能看到你的博客成功上线！</p>
 <ul>
 <li><p>注意：部署前为了防止网络错误，配置git代理（端口为7890）</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.proxy http://127.0.0.1:7890</span><br><span class="line">git config --global https.proxy http://127.0.0.1:7890</span><br></pre></td></tr></table></figure></li>
 </ul>
-</li>
-<li><p><strong>内容创作与美化：用心经营你的“小家”</strong></p>
-<ul>
+<h2 id="四、内容创作与美化"><a href="#四、内容创作与美化" class="headerlink" title="四、内容创作与美化"></a>四、内容创作与美化</h2><ul>
 <li><strong>写文章</strong>：在<code>source/_posts</code>文件夹里新建Markdown文件（比如<code>my-first-post.md</code>），用你最熟悉的Markdown语法写下第一篇学习心得。文章开头可以用<code>---</code>包裹起来的内容来定义标题、日期、分类等信息 。</li>
-<li><strong>个人简介</strong>：你可以新建一个“关于”页面，或者在首页专门开辟一个板块来介绍自己。关于页可以包含<strong>信息卡片、个人简介、技术栈、工作经历和教育经历</strong>等模块，让访客全面了解你 。</li>
-<li><strong>换主题</strong>：Hexo有成千上万款精美主题。比如，你可以去GitHub上把流行的 <strong>NexT</strong> 主题下载到<code>themes</code>文件夹，然后在<code>_config.yml</code>里把主题名改成<code>next</code>，博客瞬间就能变个样 。</li>
+<li><strong>个人简介</strong>：你可以新建一个“关于”页面，或者在首页专门开辟一个板块来介绍自己。关于页可以包含信息卡片、个人简介、技术栈、工作经历和教育经历等模块，让访客全面了解你 。</li>
+<li><strong>换主题</strong>：Hexo有成千上万款精美主题。比如，你可以去GitHub上把流行的 NexT 主题下载到<code>themes</code>文件夹，然后在<code>_config.yml</code>里把主题名改成<code>next</code>，博客瞬间就能变个样 。</li>
 </ul>
-</li>
-</ol>
 <h1 id="写博客的流程"><a href="#写博客的流程" class="headerlink" title="写博客的流程"></a>写博客的流程</h1><table>
 <thead>
 <tr>
@@ -407,6 +418,20 @@
 </ol>
 <p>注意：图片格式可以通过文件夹-查看-显示后缀进行修改</p>
 <h2 id="二、文章资源文件夹"><a href="#二、文章资源文件夹" class="headerlink" title="二、文章资源文件夹"></a>二、文章资源文件夹</h2><p>（推荐，图片与文章一一对应，管理更清晰）</p>
+<p>1、开启配置：打开博客根目录的 <code>_config.yml</code> 文件，找到 <code>post_asset_folder</code> 这个配置项，把它从 <code>false</code> 改成 <code>true</code></p>
+<p>2、创建新文章：之后，当你使用 <code>hexo new &quot;文章标题&quot;</code> 创建新文章时，Hexo 不仅会在 <code>source/_posts</code> 下生成一个 <code>.md</code> 文件，还会<strong>同时生成一个与文章同名的文件夹</strong>。例如，你创建“我的第二篇博客”，就会生成：</p>
+<ul>
+<li><code>source/_posts/我的第二篇博客.md</code></li>
+<li><code>source/_posts/我的第二篇博客/</code> （这是一个空文件夹）</li>
+</ul>
+<p>3、存放图片：把你这篇文章需要用到的所有图片，都放进这个同名的文件夹里。</p>
+<p>4、Typora 设置与引用：</p>
+<ul>
+<li>在 Typora 中打开你的 <code>.md</code> 文章。</li>
+<li>将图片直接<strong>拖拽或粘贴</strong>到文章中。这时你需要根据你的设置来确保路径正确。</li>
+<li><strong>关键一步</strong>：为了让 Typora 能正确预览，你需要告诉它图片的根目录在哪里。在 Typora 中，点击 <code>格式</code> → <code>图像</code> → <code>设置图片根目录</code>，然后选择你的博客 <code>source</code> 文件夹。</li>
+<li>设置好根目录后，你在文章中插入图片时，Typora 生成的路径就会是 <code>![图片描述](文章同名文件夹/图片名.jpg)</code>，例如 <code>![可爱的小蜡笔](My-first-blog.assets/蜡笔小新.jpeg)</code>。这个路径无论是在本地 Typora 预览，还是经过 Hexo 生成后部署到网上，都能被正确解析。</li>
+</ul>
 
       
     </div>
@@ -436,7 +461,7 @@
     <link itemprop="mainEntityOfPage" href="http://example.com/2026/02/16/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/labixiaoxin.jpg">
       <meta itemprop="name" content="ricky">
     </span>
 
