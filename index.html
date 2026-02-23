@@ -141,7 +141,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -171,6 +171,141 @@
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2026/02/23/Github%E7%9A%84%E4%BD%BF%E7%94%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/../images/labixiaoxin.jpg">
+      <meta itemprop="name" content="ricky">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Rickrq's Blog">
+      <meta itemprop="description" content="I'm rickrq (often called ricky), a passionate self-taught developer, with a keen interest in software testing.">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | Rickrq's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/02/23/Github%E7%9A%84%E4%BD%BF%E7%94%A8/" class="post-title-link" itemprop="url">Github的使用</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2026-02-23 14:34:27 / Modified: 14:51:15" itemprop="dateCreated datePublished" datetime="2026-02-23T14:34:27+08:00">2026-02-23</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="一、Github介绍"><a href="#一、Github介绍" class="headerlink" title="一、Github介绍"></a>一、Github介绍</h2><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV14qh8ztEhv/?spm_id_from=333.1387.homepage.video_card.click&vd_source=37c3d3de42091f829cc54fc3d452e6b0">GitHub新手指南_bilibili</a></p>
+<p>搜索：关键词再加上awesome可以搜索较优质的内容</p>
+<p>可以根据星标收藏stars、复制分叉次数fork等排序；</p>
+<p>在左侧菜单栏可以用filter选择类型、编程语言、进一步筛选。</p>
+<p><img src="/_posts/Github%E7%9A%84%E4%BD%BF%E7%94%A8.assets/image-20260223145028356.png" alt="image-20260223145028356"></p>
+<p>主页面左上角三横杠图标open menu - explore可以像社媒一样浏览项目</p>
+<p>open menu - explore - topics可以看到awesome lists</p>
+<p>在github内搜索hellogithub，可以看到总结出的当月优质资源</p>
+<p>他们也有自己的网站hellogithub.com</p>
+<p>主页右上角头像 - stars可以看到自己收藏的项目</p>
+<p>某一个项目内：</p>
+<p>watch：关注项目，接受提醒</p>
+<p>fork：项目复制一份放到自己的仓库</p>
+<p>stars：<strong>收藏</strong></p>
+<p>&lt;&gt;code(绿色) - Download ZIP：<strong>下载项目</strong></p>
+<p>找<strong>安装包</strong>的2种方式：1、在readme内；2、文件列表右侧release</p>
+<p>左上角issue：可以创建issue给开发者</p>
+<p>open menu - home - 左侧菜单栏<strong>创建仓库</strong>create repository</p>
+<p>创建后，Add file - upload files可以上传文件</p>
+<h2 id="二、安装、运行项目"><a href="#二、安装、运行项目" class="headerlink" title="二、安装、运行项目"></a>二、安装、运行项目</h2><p>一、安装python项目</p>
+<p>1、包管理平台安装： <code>pip install 项目名 </code> </p>
+<p>对于那些发布在PyPI（Python Package Index，Python官方包仓库）上的项目。</p>
+<p>PyPI是Python官方的第三方软件仓库，就像手机上的应用商店。</p>
+<p>很多项目会把稳定版本发布到相应的包管理平台：</p>
+<ul>
+<li>Python：PyPI（可以用pip安装）</li>
+<li>JavaScript：npm（可以用npm install安装），例如Node.js项目</li>
+<li>C&#x2F;C++：可能发布到vcpkg、conan等</li>
+<li>Windows软件：可能直接提供exe安装包</li>
+</ul>
+<p>2、从GitHub下载源码然后安装：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/asweigart/buttonpad.git #从github上下载源码</span><br><span class="line">cd buttonpad	#跳转到目录</span><br><span class="line">python setup.py install	#安装</span><br></pre></td></tr></table></figure>
+
+
+
+<p>二、运行项目</p>
+<p>1、用-m运行模块</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># buttonpad已经通过pip安装到系统里了</span></span><br><span class="line">python -m buttonpad</span><br><span class="line"><span class="comment"># Python会自动去安装目录找到这个模块并运行</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>关于-m：</p>
+<ul>
+<li><p>不用关心文件在哪</p>
+<ul>
+<li><p>用<code>-m</code>时，Python会自动在所有安装路径里搜索</p>
+</li>
+<li><p>就像你在电脑上按Win键搜索程序，不用管它安装在C盘还是D盘</p>
+</li>
+</ul>
+</li>
+<li><p>区分导入和运行</p>
+<ul>
+<li><p>有些Python包既可以作为库被别的程序导入使用</p>
+</li>
+<li><p>也可以作为独立的程序直接运行</p>
+</li>
+<li><p><code>-m</code>就是告诉Python：”我要以独立程序的方式运行这个包”</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>2、跳转到目录后执行命令：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 先跳转到包含buttonpad.py的路径</span></span><br><span class="line">python buttonpad.py</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -216,7 +351,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2026-02-18 11:19:49" itemprop="dateModified" datetime="2026-02-18T11:19:49+08:00">2026-02-18</time>
+      <time title="Modified: 2026-02-23 14:31:06" itemprop="dateModified" datetime="2026-02-23T14:31:06+08:00">2026-02-23</time>
     </span>
 
   
@@ -293,6 +428,7 @@
 <td>发布上线</td>
 </tr>
 </tbody></table>
+<p>步骤1，确保在…\myblog路径下执行</p>
 <h1 id="博客个性化"><a href="#博客个性化" class="headerlink" title="博客个性化"></a>博客个性化</h1><h2 id="1、修改博客基本信息"><a href="#1、修改博客基本信息" class="headerlink" title="1、修改博客基本信息"></a>1、修改博客基本信息</h2><p>打开根目录的 <code>_config.yml</code> 文件，找到并修改</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: 你的博客标题</span><br><span class="line">subtitle: 你的副标题</span><br><span class="line">description: 博客描述</span><br><span class="line">author: 你的名字</span><br><span class="line">language: zh-CN  # 改成中文</span><br><span class="line">timezone: Asia/Shanghai</span><br></pre></td></tr></table></figure>
 
