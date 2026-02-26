@@ -20,16 +20,18 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js" defer></script>
 
-    <meta name="description" content="Github的使用基本使用 安装、运行项目">
+    <meta name="description" content="Github的使用基本使用 下载、进入、安装、运行项目">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Github的使用">
 <meta property="og:url" content="http://example.com/2026/02/23/Github%E7%9A%84%E4%BD%BF%E7%94%A8/index.html">
 <meta property="og:site_name" content="Rickrq&#39;s Blog">
-<meta property="og:description" content="Github的使用基本使用 安装、运行项目">
+<meta property="og:description" content="Github的使用基本使用 下载、进入、安装、运行项目">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/images/Github%E7%9A%84%E4%BD%BF%E7%94%A8/1.png">
+<meta property="og:image" content="http://example.com/images/Github%E7%9A%84%E4%BD%BF%E7%94%A8/3.jpg">
+<meta property="og:image" content="http://example.com/images/Github%E7%9A%84%E4%BD%BF%E7%94%A8/2.jpg">
 <meta property="article:published_time" content="2026-02-23T06:34:27.000Z">
-<meta property="article:modified_time" content="2026-02-23T15:41:16.414Z">
+<meta property="article:modified_time" content="2026-02-26T10:04:09.995Z">
 <meta property="article:author" content="ricky">
 <meta property="article:tag" content="software testing">
 <meta name="twitter:card" content="summary">
@@ -131,7 +133,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Github%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="nav-number">1.</span> <span class="nav-text">Github的使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81Github%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.1.</span> <span class="nav-text">一、Github介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E8%BF%90%E8%A1%8C%E9%A1%B9%E7%9B%AE"><span class="nav-number">1.2.</span> <span class="nav-text">二、安装、运行项目</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Github%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="nav-number">1.</span> <span class="nav-text">Github的使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81Github%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.1.</span> <span class="nav-text">一、Github介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E4%B8%8B%E8%BD%BD%E9%A1%B9%E7%9B%AE"><span class="nav-number">1.2.</span> <span class="nav-text">二、下载项目</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1%E3%80%81pip%E6%96%B9%E5%BC%8F"><span class="nav-number">1.2.1.</span> <span class="nav-text">1、pip方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2%E3%80%81git%E6%96%B9%E5%BC%8F%EF%BC%88%E6%8E%A8%E8%8D%90%EF%BC%89"><span class="nav-number">1.2.2.</span> <span class="nav-text">2、git方式（推荐）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3%E3%80%81pip-git-ZIP%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="nav-number">1.2.3.</span> <span class="nav-text">3、pip\git\ZIP的区别</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E8%BF%9B%E5%85%A5%E9%A1%B9%E7%9B%AE"><span class="nav-number">1.3.</span> <span class="nav-text">三、进入项目</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1%E3%80%81cmd%E6%96%B9%E5%BC%8F"><span class="nav-number">1.3.1.</span> <span class="nav-text">1、cmd方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2%E3%80%81pycharm%E6%96%B9%E5%BC%8F%EF%BC%88%E6%8E%A8%E8%8D%90%EF%BC%89"><span class="nav-number">1.3.2.</span> <span class="nav-text">2、pycharm方式（推荐）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E5%AE%89%E8%A3%85%E9%A1%B9%E7%9B%AE"><span class="nav-number">1.4.</span> <span class="nav-text">四、安装项目</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.4.1.</span> <span class="nav-text"></span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E8%BF%90%E8%A1%8C%E9%A1%B9%E7%9B%AE"><span class="nav-number">1.5.</span> <span class="nav-text">五、运行项目</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1%E3%80%81python-m%E6%96%B9%E5%BC%8F"><span class="nav-number">1.5.1.</span> <span class="nav-text">1、python -m方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2%E3%80%81python%E6%96%B9%E5%BC%8F"><span class="nav-number">1.5.2.</span> <span class="nav-text">2、python方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3%E3%80%81pycharm%E8%BF%90%E8%A1%8C%E6%96%B9%E5%BC%8F%EF%BC%88%E6%8E%A8%E8%8D%90%EF%BC%89"><span class="nav-number">1.5.3.</span> <span class="nav-text">3、pycharm运行方式（推荐）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-1%E8%BF%90%E8%A1%8C%E6%95%B4%E4%B8%AA%E9%A1%B9%E7%9B%AE"><span class="nav-number">1.5.3.1.</span> <span class="nav-text">3.1运行整个项目</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2%E8%BF%90%E8%A1%8C%E5%8D%95%E4%B8%AA%E6%96%87%E4%BB%B6"><span class="nav-number">1.5.3.2.</span> <span class="nav-text">3.2运行单个文件</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AD%E3%80%81%E4%BF%AE%E6%94%B9%E9%A1%B9%E7%9B%AE"><span class="nav-number">1.6.</span> <span class="nav-text">六、修改项目</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1%E3%80%81%E4%BF%AE%E6%94%B9"><span class="nav-number">1.6.1.</span> <span class="nav-text">1、修改</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2%E3%80%81%E9%87%8D%E6%96%B0%E5%AE%89%E8%A3%85"><span class="nav-number">1.6.2.</span> <span class="nav-text">2、重新安装</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%83%E3%80%81%E5%8D%B8%E8%BD%BD%E9%A1%B9%E7%9B%AE"><span class="nav-number">1.7.</span> <span class="nav-text">七、卸载项目</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -214,9 +216,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2026-02-23 14:34:27 / Modified: 23:41:16" itemprop="dateCreated datePublished" datetime="2026-02-23T14:34:27+08:00">2026-02-23</time>
+      <time title="Created: 2026-02-23 14:34:27" itemprop="dateCreated datePublished" datetime="2026-02-23T14:34:27+08:00">2026-02-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2026-02-26 18:04:09" itemprop="dateModified" datetime="2026-02-26T18:04:09+08:00">2026-02-26</time>
     </span>
 
   
@@ -229,7 +237,7 @@
     
     
     <div class="post-body" itemprop="articleBody"><h1 id="Github的使用"><a href="#Github的使用" class="headerlink" title="Github的使用"></a>Github的使用</h1><p>基本使用</p>
-<p>安装、运行项目</p>
+<p>下载、进入、安装、运行项目</p>
 <span id="more"></span>
 
 <h2 id="一、Github介绍"><a href="#一、Github介绍" class="headerlink" title="一、Github介绍"></a>一、Github介绍</h2><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV14qh8ztEhv/?spm_id_from=333.1387.homepage.video_card.click&vd_source=37c3d3de42091f829cc54fc3d452e6b0">GitHub新手指南_bilibili</a></p>
@@ -251,9 +259,9 @@
 <p>左上角issue：可以创建issue给开发者</p>
 <p>open menu - home - 左侧菜单栏<strong>创建仓库</strong>create repository</p>
 <p>创建后，Add file - upload files可以上传文件</p>
-<h2 id="二、安装、运行项目"><a href="#二、安装、运行项目" class="headerlink" title="二、安装、运行项目"></a>二、安装、运行项目</h2><p>一、安装python项目</p>
-<p>1、包管理平台安装： <code>pip install 项目名 </code> </p>
-<p>对于那些发布在PyPI（Python Package Index，Python官方包仓库）上的项目。</p>
+<h2 id="二、下载项目"><a href="#二、下载项目" class="headerlink" title="二、下载项目"></a>二、下载项目</h2><h3 id="1、pip方式"><a href="#1、pip方式" class="headerlink" title="1、pip方式"></a>1、pip方式</h3> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install 项目名</span><br></pre></td></tr></table></figure>
+
+<p>对于那些发布在PyPI（Python Package Index，Python包索引，包管理平台）上的项目。</p>
 <p>PyPI是Python官方的第三方软件仓库，就像手机上的应用商店。</p>
 <p>很多项目会把稳定版本发布到相应的包管理平台：</p>
 <ul>
@@ -262,17 +270,149 @@
 <li>C&#x2F;C++：可能发布到vcpkg、conan等</li>
 <li>Windows软件：可能直接提供exe安装包</li>
 </ul>
-<p>2、从GitHub下载源码然后安装：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/asweigart/buttonpad.git #从github上下载源码</span><br><span class="line">cd buttonpad	#跳转到目录</span><br><span class="line">python setup.py install	#安装</span><br></pre></td></tr></table></figure>
+<h3 id="2、git方式（推荐）"><a href="#2、git方式（推荐）" class="headerlink" title="2、git方式（推荐）"></a>2、git方式（推荐）</h3><ol>
+<li><p>找到项目的GitHub地址</p>
+<p>以 <code>ButtonPad</code> 为例，它的GitHub地址是：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/asweigart/buttonpad.git</span><br></pre></td></tr></table></figure>
+
+<p>在任意GitHub项目页面，点击绿色的 <strong>【Code】</strong> 按钮，就能看到这个地址</p>
+</li>
+<li><p>用git clone下载项目</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 先cd到你想要存放项目的目录，比如桌面</span><br><span class="line">cd C:\Users\你的用户名\Desktop</span><br><span class="line"></span><br><span class="line"># 克隆项目</span><br><span class="line">git clone https://github.com/asweigart/buttonpad.git</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>​	执行后，Git会创建一个 <code>buttonpad</code> 文件夹，并把所有代码下载到里面。</p>
+<h3 id="3、pip-git-ZIP的区别"><a href="#3、pip-git-ZIP的区别" class="headerlink" title="3、pip\git\ZIP的区别"></a>3、pip\git\ZIP的区别</h3><table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left">pip install</th>
+<th align="left">git clone + pip install -e</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>安装位置</strong></td>
+<td align="left">site-packages（系统目录）</td>
+<td align="left">你指定的任何位置</td>
+</tr>
+<tr>
+<td align="left"><strong>能否看到源码</strong></td>
+<td align="left">难找（藏在Python目录里）</td>
+<td align="left">就在你面前</td>
+</tr>
+<tr>
+<td align="left"><strong>能否修改代码</strong></td>
+<td align="left">可以但不推荐</td>
+<td align="left"><strong>可以，且立即生效</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>适合场景</strong></td>
+<td align="left">只想用这个工具</td>
+<td align="left">想学习、修改、贡献代码</td>
+</tr>
+<tr>
+<td align="left"><strong>磁盘空间</strong></td>
+<td align="left">小（只有必要文件）</td>
+<td align="left">大（包含所有文件）</td>
+</tr>
+<tr>
+<td align="left"><strong>版本控制</strong></td>
+<td align="left">不能</td>
+<td align="left">可以用git管理</td>
+</tr>
+</tbody></table>
+<ul>
+<li><p>用 <code>git clone</code> 下载的是<strong>完整源码</strong>，包括：</p>
+<ul>
+<li>所有历史提交记录（可以用 <code>git log</code> 查看）</li>
+<li>测试代码（<code>tests/</code> 文件夹）</li>
+<li>示例程序（比如ButtonPad里的几十个小游戏）</li>
+<li>文档源码</li>
+</ul>
+</li>
+<li><p>而直接 <code>pip install</code> 只安装运行所需的最小文件。</p>
+</li>
+</ul>
+<p>ZIP下载和git clone的区别：</p>
+<ul>
+<li><strong>ZIP下载</strong>：只能拿到当前版本的代码</li>
+<li><strong>git clone</strong>：可以随时用 <code>git pull</code> 获取项目的最新更新</li>
+</ul>
+<h2 id="三、进入项目"><a href="#三、进入项目" class="headerlink" title="三、进入项目"></a>三、进入项目</h2><h3 id="1、cmd方式"><a href="#1、cmd方式" class="headerlink" title="1、cmd方式"></a>1、cmd方式</h3><p>进入项目，转换虚拟环境</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd 项目根目录</span><br><span class="line">.\.venv\Scripts\activate</span><br></pre></td></tr></table></figure>
+
+<p>注、退出虚拟python命令为</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deactivate</span><br></pre></td></tr></table></figure>
 
 
 
-<p>二、运行项目</p>
-<p>1、用-m运行模块</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># buttonpad已经通过pip安装到系统里了</span></span><br><span class="line">python -m buttonpad</span><br><span class="line"><span class="comment"># Python会自动去安装目录找到这个模块并运行</span></span><br></pre></td></tr></table></figure>
+<h3 id="2、pycharm方式（推荐）"><a href="#2、pycharm方式（推荐）" class="headerlink" title="2、pycharm方式（推荐）"></a>2、pycharm方式（推荐）</h3><p>1、打开项目</p>
+<ul>
+<li><p>方法A、用pycharm打开某个.py文件时，提示是否在项目中打开（是，并注意选择<strong>项目根目录</strong>）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">buttonpad/              	 # 项目根目录</span><br><span class="line">├── buttonpad/               # 主要的包文件夹</span><br><span class="line">│   ├── __init__.py          # 包初始化文件</span><br><span class="line">│   ├── __main__.py          # 程序入口</span><br><span class="line">│   ├── launcher.py          # 启动器（显示菜单）</span><br><span class="line">│   ├── calculator.py        # 计算器游戏</span><br><span class="line">│   ├── tictactoe.py         # 井字棋游戏</span><br><span class="line">│   ├── my_phone.py          # 你的电话键盘程序</span><br><span class="line">│   └── ... (其他游戏文件)</span><br><span class="line">├── pyproject.toml           # 项目配置</span><br><span class="line">└── README.md                # 说明文档</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>方法B、用pycharm打开项目，<strong>File</strong> → <strong>Open</strong> → 选择项目根目录</p>
+</li>
+</ul>
+<p>2、将解释器配置为项目虚拟python</p>
+<ol>
+<li><p>看PyCharm窗口的<strong>右下角状态栏</strong>，应该能看到类似 “No interpreter” 或 “Python …” 的提示</p>
+</li>
+<li><p>点击它，选择 <strong>“Add New Interpreter”</strong> → <strong>“Add Local Interpreter”</strong></p>
+</li>
+<li><p>在弹出的对话框中，保持默认的 <strong>“Virtualenv”</strong> 环境类型</p>
+</li>
+<li><p><strong>Base interpreter</strong> 会自动检测你系统安装的Python</p>
+<ul>
+<li>如果没有，点击文件夹图标，弹出文件浏览窗口，选择系统python路径。</li>
+</ul>
+</li>
+<li><p>确保 <strong>“Inherit global site-packages”</strong> 可选可不选，但为了简单，可以勾选</p>
+</li>
+<li><p>点击 <strong>OK</strong>，PyCharm会创建虚拟环境并配置好解释器</p>
+</li>
+</ol>
+<p><img src="/../images/Github%E7%9A%84%E4%BD%BF%E7%94%A8/3.jpg" alt="3"></p>
+<ul>
+<li><p><strong>项目专属的虚拟环境Python</strong>需要和<strong>系统Python</strong>隔离原因：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 项目A：做蛋糕的专用操作台</span><br><span class="line">(venv-A) pip install 蛋糕模具==1.0</span><br><span class="line">(venv-A) pip install 烤箱==2.0</span><br><span class="line"></span><br><span class="line"># 项目B：做面包的专用操作台</span><br><span class="line">(venv-B) pip install 烤箱==1.5  # 互不影响！</span><br><span class="line"></span><br><span class="line"># 两个项目都能正常运行</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="四、安装项目"><a href="#四、安装项目" class="headerlink" title="四、安装项目"></a>四、安装项目</h2><ol>
+<li>安装项目</li>
+</ol>
+<ul>
+<li><p>方式A、开发模式安装（推荐）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 注意、在 buttonpad-main 文件夹里运行</span><br><span class="line">pip install -e .</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li><p>关于-m：</p>
+<li><p><code>-e</code> 是 <code>--editable</code> 的缩写，意思是”可编辑模式”</p>
+</li>
+<li><p>这样安装后，你修改源码会立即生效，<strong>不用重新安装</strong></p>
+</li>
+</ul>
+</li>
+<li><p>方式B、普通安装</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 在 buttonpad-main 文件夹里运行</span><br><span class="line">pip install .</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>会把包复制到 Python 的 site-packages 里。（site-packages是Python的”第三方仓库”——一个专门存放所有通过pip安装的包的文件夹。你可以把它理解为手机的”应用安装目录”。）</p>
+</li>
+<li><p>查看site-packages路径命令：</p>
+<p><code>python -c &quot;import site; print(site.getsitepackages())&quot;</code></p>
+</li>
+<li><p>修改源码后<strong>需要重新安装</strong>才能生效</p>
+</li>
+</ul>
+</li>
+</ul>
+<ol start="2">
+<li>确认安装成功</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip show buttonpad</span><br></pre></td></tr></table></figure>
+
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3><h2 id="五、运行项目"><a href="#五、运行项目" class="headerlink" title="五、运行项目"></a>五、运行项目</h2><h3 id="1、python-m方式"><a href="#1、python-m方式" class="headerlink" title="1、python -m方式"></a>1、python -m方式</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># buttonpad已经安装到系统里了。不需要跳转路径</span></span><br><span class="line">python -m buttonpad</span><br><span class="line"><span class="comment">### 或者python -m buttonpad.my_phone，运行项目中的某一个模块</span></span><br><span class="line"><span class="comment"># Python会自动去安装目录找到这个模块并运行</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>关于-m模块：</p>
 <ul>
 <li><p>不用关心文件在哪</p>
 <ul>
@@ -295,8 +435,54 @@
 </ul>
 </li>
 </ul>
-<p>2、跳转到目录后执行命令：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 先跳转到包含buttonpad.py的路径</span></span><br><span class="line">python buttonpad.py</span><br></pre></td></tr></table></figure>
+<h3 id="2、python方式"><a href="#2、python方式" class="headerlink" title="2、python方式"></a>2、python方式</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 先跳转到包含buttonpad.py的路径</span></span><br><span class="line">python buttonpad.py</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="3、pycharm运行方式（推荐）"><a href="#3、pycharm运行方式（推荐）" class="headerlink" title="3、pycharm运行方式（推荐）"></a>3、pycharm运行方式（推荐）</h3><h4 id="3-1运行整个项目"><a href="#3-1运行整个项目" class="headerlink" title="3.1运行整个项目"></a>3.1运行整个项目</h4><ul>
+<li><p>方法A、PyCharm底部的Terminal（相当于cmd），执行命令<code>python -m buttonpad</code></p>
+</li>
+<li><p>方法B、绿色运行按钮旁，编辑配置：</p>
+<ul>
+<li><p>点击 <strong>+</strong> → 选择 <strong>Python</strong></p>
+</li>
+<li><p>配置如下：</p>
+<ul>
+<li><p><strong>Name</strong>: ButtonPad (随便起个名字)</p>
+</li>
+<li><p><strong>Script path</strong>: 这里<strong>不选</strong>，改为选 <strong>Module name</strong></p>
+</li>
+<li><p><strong>Module name</strong>: 输入 <code>buttonpad</code></p>
+</li>
+<li><p><strong>Working directory</strong>: 确保是项目根目录 <code>E:\Project\PycharmProjects\gitproj\buttonpad</code></p>
+<p><img src="/../images/Github%E7%9A%84%E4%BD%BF%E7%94%A8/2.jpg" alt="2"></p>
+</li>
+</ul>
+</li>
+<li><p>点击 <strong>OK</strong> 保存</p>
+</li>
+<li><p>点击绿色的▶️（配置Name）运行按钮，就会看到启动器菜单！</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="3-2运行单个文件"><a href="#3-2运行单个文件" class="headerlink" title="3.2运行单个文件"></a>3.2运行单个文件</h4><ul>
+<li>方法A、打开文件，点击编辑器右上角绿色的▶️（当前文件）</li>
+<li>方法B、找到文件，右键选择 <strong>Run ‘calculator’</strong></li>
+</ul>
+<h2 id="六、修改项目"><a href="#六、修改项目" class="headerlink" title="六、修改项目"></a>六、修改项目</h2><h3 id="1、修改"><a href="#1、修改" class="headerlink" title="1、修改"></a>1、修改</h3><h3 id="2、重新安装"><a href="#2、重新安装" class="headerlink" title="2、重新安装"></a>2、重新安装</h3><p>情况A、开发模式安装：<strong>无需</strong>再次安装</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 在 buttonpad-main 文件夹里运行</span><br><span class="line">pip install -e .</span><br></pre></td></tr></table></figure>
+
+<p>情况B、普通安装：需要再次安装</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 在 buttonpad-main 文件夹里运行</span><br><span class="line">pip install .</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 先卸载旧版本</span><br><span class="line">pip uninstall buttonpad</span><br><span class="line"></span><br><span class="line"># 再重新安装新版本</span><br><span class="line">pip install .</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="七、卸载项目"><a href="#七、卸载项目" class="headerlink" title="七、卸载项目"></a>七、卸载项目</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 1. 退出项目目录（避免当前目录优先级干扰），如buttonpad-main</span><br><span class="line">###如果不退出，执行python -m buttonpad仍能运行</span><br><span class="line">cd ..</span><br><span class="line"># 2. 卸载</span><br><span class="line">pip uninstall buttonpad</span><br></pre></td></tr></table></figure>
+
+
 
 
     </div>
